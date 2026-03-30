@@ -14,56 +14,56 @@ document.addEventListener('DOMContentLoaded', () => {
             author: "Raphael Fraemam", 
             category: "Fantasia Contemporânea", 
             rating: 5, 
-            cover: "/assets/Krystallo - Jornadas para Além das Fronteiras.jpg" 
+            cover: "assets/Krystallo - Jornadas para Além das Fronteiras.jpg" 
         },
         { 
             title: "Harry Potter e a Pedra Filosofal - Edição Ilustrada", 
             author: "J. K. Rowling", 
             category: "Fantasia Infantojuvenil", 
             rating: 4, 
-            cover: "/assets/Harry Potter e a Pedra Filosofal.jpg"
+            cover: "assets/Harry Potter e a Pedra Filosofal.jpg"
         },
         { 
             title: "De Repente Ester", 
             author: "Kell Carvalho", 
             category: "Romance Cristão", 
             rating: 5, 
-            cover: "/assets/De Repente Ester.jpg" 
+            cover: "assets/De Repente Ester.jpg" 
         },
         { 
             title: "98,8% de Compatibilidade", 
             author: "Lyla Mars", 
             category: "Romance Contemporâneo", 
             rating: 4, 
-            cover: "/assets/98 de Compatibilidade.jpg" 
+            cover: "assets/98 de Compatibilidade.jpg" 
         },
         { 
             title: "Nunca Minta", 
             author: "Freida McFadden", 
             category: "suspense", 
             rating: 5, 
-            cover: "/assets/Nunca Minta.jpg" 
+            cover: "assets/Nunca Minta.jpg" 
         },
         { 
             title: "O Desaparecimento de Stephanie Mailer", 
             author: "Joël Dicker", 
             category: "suspense", 
             rating: 4, 
-            cover: "/assets/O Desaparecimento de Stephanie Mailer.jpg" 
+            cover: "assets/O Desaparecimento de Stephanie Mailer.jpg" 
         },
         { 
             title: "Orgulho e Preconceito", 
             author: "Jane Austen", 
             category: "Clássicos / Literatura Inglesa", 
             rating: 5, 
-            cover: "/assets/Orgulho e Preconceito.jpg" 
+            cover: "assets/Orgulho e Preconceito.jpg" 
         },
         { 
             title: "Crime e Castigo", 
             author: "Fiódor Dostoiévski", 
             category: "Clássicos / Literatura Russa", 
             rating: 5, 
-            cover: "/assets/Crime e Castigo.jpg" 
+            cover: "assets/Crime e Castigo.jpg" 
         }
     ];
 
