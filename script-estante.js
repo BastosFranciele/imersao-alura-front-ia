@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             author: "Raphael Fraemam", 
             category: "Fantasia Contemporânea", 
             rating: 5, 
-            cover: "assets/krystallo.jpg" 
+            cover: "assets/Krystallo.jpg" 
         },
         { 
             title: "Harry Potter e a Pedra Filosofal - Edição Ilustrada", 

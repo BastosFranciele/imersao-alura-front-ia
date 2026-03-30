@@ -181,12 +181,11 @@ body{
 
 /* Garante que o grid de livros use a largura toda */
 #container-livros {
-    display: grid; /* ← essa linha estava faltando! */
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 30px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* largura mínima das capas */
+    gap: 30px; /* espaço entre um livro e outro */
+    width: 100%; /* ocupa toda a largura disponível */
+    max-width: 1200px; /* a estante pode crescer mais em telas grandes */
+    margin: 0 auto; /* centraliza a estante na página */
 }
 
 /* Controle do tamanho da imagem */
