@@ -73,7 +73,7 @@ body{
 .profile-link img {
     width: 120px; /* Tamanho para Computadores/Telas Maiores */
     aspect-ratio: 1 / 1; /* Garante que a imagem seja quadrada */
-    object-fit: cover;
+    object-fit: contain; /* A imagem inteira aparece sem cortes */
     border-radius: 8px; /* Formato de livro/card, mas pode usar 50% se preferir redondo */
     border: 3px solid transparent;
     transition: border-color 0.3s;
