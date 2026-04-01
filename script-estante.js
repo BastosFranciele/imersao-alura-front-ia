@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "Romance Cristão", 
             rating: 5, 
             cover: "assets/de-repente-ester.jpg",
-            trailer: "https://www.youtube-nocooki.com/embed/4vUzQA_jSBI"
+            trailer: "https://www.youtube-nocooki.com/embed/yJyQx3HZAos"
         },
         { 
             title: "98,8% de Compatibilidade", 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             category: "Romance Contemporâneo", 
             rating: 4, 
             cover: "assets/98-de-compatibilidade.jpg",
-            trailer: "https://www.youtube-nocooki.com/embed/kY8Bek1JNj4"
+            trailer: "https://www.youtube-nocookie.com/embed/X_guxmOR_mc"
         },
         { 
             title: "Nunca Minta", 
