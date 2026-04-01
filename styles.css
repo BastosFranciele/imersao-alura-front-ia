@@ -224,8 +224,8 @@ body{
 }
 
 .trailer-container iframe {
-    width: 180%;
-    height: 140%;
+    width: 160%;
+    height: 350%;
     position: absolute;
     top: 50%;
     left: 50%;
