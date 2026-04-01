@@ -147,7 +147,7 @@ function playTrailer(card, trailerUrl) {
     const trailerDiv = card.querySelector('.trailer-container');
     // Parâmetros para autoplay, mudo (obrigatório para autoplay), sem controles e em loop
     const videoId = trailerUrl.split('/').pop();
-    const urlFinal = `${trailerUrl}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playlist=${videoId}&loop=1`;
+    const urlFinal = `${trailerUrl}?autoplay=1&controls=0&modestbranding=1&rel=0&playlist=${videoId}&loop=1`;
     
     trailerDiv.innerHTML = `<iframe src="${urlFinal}" frameborder="0" allow="autoplay; encrypted-media"></iframe>`;
     trailerDiv.style.opacity = "1";
