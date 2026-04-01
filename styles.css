@@ -191,11 +191,11 @@ body{
 /* Container para o trailer do livro */
 .media-container {
     position: relative; /* Permite que o trailer fique "flutuando" sobre a capa */
-    width: 100%;
+    width: 100%; /*
     height: 350px;      /* Ajustado para coincidir com a .livro-capa */
     background: #000;   /* Fundo preto para o vídeo não ter bordas brancas */
     border-radius: 12px;
-    overflow: hidden;   /* Garante que o vídeo não saia das bordas arredondadas */
+    overflow: visible;   /* Permite que o trailer "ultrapasse" os limites do card */
 }
 
 /* Controle do tamanho da imagem */
@@ -224,12 +224,13 @@ body{
 }
 
 .trailer-container iframe {
-    width: 200%;
+    width: 180%;
     height: 140%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* centraliza o vídeo maior */ 
+    border-radius: 12px; /* Mesma borda arredondada do card */
 }
 
 /* Quando encostar no card, o trailer aparece */
