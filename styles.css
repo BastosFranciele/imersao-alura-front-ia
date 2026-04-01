@@ -188,6 +188,16 @@ body{
     margin: 0 auto; /* centraliza a estante na página */
 }
 
+/* Container para o trailer do livro */
+.media-container {
+    position: relative; /* Permite que o trailer fique "flutuando" sobre a capa */
+    width: 100%;
+    height: 350px;      /* Ajustado para coincidir com a .livro-capa */
+    background: #000;   /* Fundo preto para o vídeo não ter bordas brancas */
+    border-radius: 12px;
+    overflow: hidden;   /* Garante que o vídeo não saia das bordas arredondadas */
+}
+
 /* Controle do tamanho da imagem */
 .livro-capa {
     width: 100%;         /* Ocupa a largura total do card */
@@ -196,9 +206,33 @@ body{
     border-radius: 8px;   /* Cantos arredondados como um livro real */
     background-color: rgba(255, 255, 255, 0.03); /* Fundo sutil caso a capa seja estreita */
     box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Sombra para dar profundidade */
-    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+    transition: opacity 0.3s; /* Transição suave para o trailer */
     margin-bottom: 12px; /* Espaço entre as imagens */
     display: block; /* Garante que a imagem seja tratada como bloco para evitar espaços indesejados */
+}
+
+/* Camada do Trailer */
+.trailer-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;          /* Começa invisível */
+    transition: opacity 0.5s ease;
+    pointer-events: none; /* Deixa o mouse "atravessar" o vídeo se precisar clicar no card */
+}
+
+.trailer-container iframe {
+    width: 100%;
+    height: 100%;
+    /* O YouTube tem bordas pretas, o scale 1.4 dá um leve zoom para preencher melhor */
+    transform: scale(1.4); 
+}
+
+/* Quando encostar no card, o trailer aparece */
+.livro-card:hover .trailer-container {
+    opacity: 1;
 }
 
 /* Ajuste fino para os textos do card */
